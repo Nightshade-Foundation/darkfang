@@ -1,4 +1,4 @@
-document.title = l('settingsPreferencesHeading') + ' | Min'
+document.title = l('settingsPreferencesHeading') + ' | darkfang'
 
 var contentTypeBlockingContainer = document.getElementById('content-type-blocking')
 var banner = document.getElementById('restart-required-banner')
@@ -347,7 +347,10 @@ updateNotificationsCheckbox.addEventListener('change', function (e) {
 })
 
 /* usage statistics setting */
-
+/*
+Commenting these out, as we are not going to be using them.
+They will be completely removed later on.
+------------------------------------------------------------------
 var usageStatisticsCheckbox = document.getElementById('checkbox-usage-statistics')
 
 settings.get('collectUsageStats', function (value) {
@@ -361,7 +364,8 @@ settings.get('collectUsageStats', function (value) {
 usageStatisticsCheckbox.addEventListener('change', function (e) {
   settings.set('collectUsageStats', this.checked)
 })
-
+----------------------------------------------------------------
+*/ 
 /* default search engine setting */
 
 var searchEngineDropdown = document.getElementById('default-search-engine')
