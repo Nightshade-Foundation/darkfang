@@ -8,9 +8,14 @@ var currentSearchEngine = {
   searchURL: '%s'
 }
 
-var defaultSearchEngine = 'DuckDuckGo'
+var defaultSearchEngine = 'You'
 
 var searchEngines = {
+  You: {
+    name: 'You',
+    searchURL: 'https://you.com/search?q=%s',
+    queryParam: 'q'
+  },
   DuckDuckGo: {
     name: 'DuckDuckGo',
     searchURL: 'https://duckduckgo.com/?q=%s&t=min',
@@ -33,12 +38,6 @@ var searchEngines = {
     searchURL: 'https://search.yahoo.com/yhs/search?p=%s',
     suggestionsURL: 'https://search.yahoo.com/sugg/os?command=%s&output=fxjson',
     queryParam: 'p'
-  },
-  Baidu: {
-    name: 'Baidu',
-    searchURL: 'https://www.baidu.com/s?wd=%s',
-    suggestionsURL: 'https://www.baidu.com/su?wd=%s&action=opensearch',
-    queryParam: 'wd'
   },
   StartPage: {
     name: 'StartPage',
