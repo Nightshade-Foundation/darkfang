@@ -1,6 +1,6 @@
-# Min
+# darkfang browser
 
-Min is a fast, minimal browser that protects your privacy. It includes an interface designed to minimize distractions, and features such as:
+Darkfang is a fast, minimal browser that protects your privacy. It includes an interface designed to minimize distractions, and features such as:
 
 - Information from [DuckDuckGo](https://duckduckgo.com) in the search bar.
 - Full-text search for visited pages
@@ -10,18 +10,9 @@ Min is a fast, minimal browser that protects your privacy. It includes an interf
 - Password manager integration
 - Dark theme
 
-Download Min from the [releases page](https://github.com/minbrowser/min/releases), or learn more on the [website](https://minbrowser.org/).
+It also aims to eventually incorporate AI and web3 tools to help you on the "new internet", one powered by AI search and decentralized technologies. This work is in the planning stages for this browser project and is ongoing.
 
-[![Downloads][DownloadsBadge]][DownloadsUrl]
-[![Discord][DiscordBadge]][DiscordUrl]
-
-Min is made possible by these sponsors:
-
-| [<img src="https://avatars3.githubusercontent.com/u/17785839?s=400&v=4" width="40">](https://github.com/ritterob) | [<img src="https://avatars.githubusercontent.com/u/6592155?s=460&v=4" width="40">](https://github.com/blackgwe) | [<img src="https://avatars.githubusercontent.com/u/33535850?v=4" width="40">](https://github.com/jonathanhuston) | [<img src="https://avatars.githubusercontent.com/u/74563788?v=4" width="40">](https://github.com/JackGFuller) | [<img src="https://avatars.githubusercontent.com/u/34013162?v=4" width="40">](https://github.com/flightmansam) | [<img src="https://avatars.githubusercontent.com/u/65834069?v=4" width="40">](https://github.com/du64) |     |
-| ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |  --- |
-| [@ritterob](https://github.com/ritterob)                                                                          | [@blackgwe](https://github.com/blackgwe)                                                                        | [@jonathanhuston](https://github.com/jonathanhuston)                                                                        | [@JackGFuller](https://github.com/JackGFuller)                                                                              | [@flightmansam](https://github.com/flightmansam)                                                                              | [@du64](https://github.com/du64)                                                                              ||
-
-[Become a sponsor](https://github.com/sponsors/PalmerAL)
+We will soon have some downloads ready for different operating systems here, beginning, as usual, with builds for GNU/Linux.
 
 ## Screenshots
 
@@ -33,22 +24,20 @@ Min is made possible by these sponsors:
 
 ## Installing
 
-You can find prebuilt binaries for Min [here](https://github.com/minbrowser/min/releases). Alternatively, skip to the section below for instructions on how to build Min directly from source.
+You can find prebuilt binaries for darkfang [here](https://github.com/Nightshade-Foundation/darkfang/releases). Alternatively, skip to the section below for instructions on how to build Min directly from source.
 
 ### Installation on Linux
 
 - To install the .deb file, use `sudo dpkg -i /path/to/download`
 - To install the RPM build, use `sudo rpm -i /path/to/download --ignoreos`
-- On Arch Linux it's in the community repository, use `sudo pacman -Sy min`
-- On Raspberry Pi, you can install Min from [Pi-Apps](https://github.com/Botspot/pi-apps).
 
 ## Developing
 
-If you want to develop Min:
+If you want to buid on top of Darkfang:
 
 - Install [Node](https://nodejs.org).
 - Run `npm install` to install dependencies.
-- Start Min in development mode by running `npm run start`.
+- Start Darkfang in development mode by running `npm run start`.
 - After you make changes, you can press `ctrl+r` (or `cmd+r` on Mac) twice to restart the browser.
 
 ### Building binaries
@@ -70,22 +59,13 @@ Depending on the platform you are building for, you may need to install addition
 - If you are building a macOS package, you'll need to install Xcode and the associated command-line tools. You may also need to set your default SDK to macOS 11.0 or higher, which you can do by running `export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk`. The exact command will depend on where Xcode is installed and which SDK version you're using.
 - To build on Windows, you'll need to install Visual Studio. Once it's installed, you may also need to run `npm config set msvs_version 2019` (or the appropriate version).
 
-## Contributing to Min
+## Contributing to Darkfang
 
-Thanks for taking the time to contribute to Min!
+Thanks for taking the time to contribute to Darkfang!
 
 ### Getting Help
 
-If you're experiencing a bug or have a suggestion for how to improve Min, please open a [new issue](https://github.com/minbrowser/min/issues/new/choose).
-
-If you have questions about using Min, need help getting started with development, or want to talk about what we're working on, join our [Discord server](https://discord.gg/bRpqjJ4).
-
-### Contributing Code
-
-- Start by following the development instructions listed above.
-- The wiki has an [overview of Min's architecture](https://github.com/minbrowser/min/wiki/Architecture).
-- Min uses the [Standard](https://github.com/feross/standard) code style; [most editors](https://standardjs.com/#are-there-text-editor-plugins) have plugins available to auto-format your code.
-- If you see something that's missing, or run into any problems, please open an issue!
+If you're experiencing a bug or have a suggestion for how to improve Min, please open a [new issue](https://github.com/Nightshade-Foundation/darkfang/issues/new/choose).
 
 ### Contributing Translations
 
@@ -111,3 +91,11 @@ If you have questions about using Min, need help getting started with developmen
 [DiscordUrl]: https://discord.gg/bRpqjJ4
 [DownloadsBadge]: https://img.shields.io/github/downloads/minbrowser/min/total.svg
 [DownloadsUrl]: https://github.com/minbrowser/min/releases
+
+### Credits
+
+We are building on top of the excellent [Min](https://github.com/minbrowser] project. 
+
+This project also could not exist without **Electron** and **Chromium**. 
+
+We will also be building on top of some artificial intelligence and web3 applications. Credits for these will be forthcoming once they are decided on and implemented into the Darkfang project.
