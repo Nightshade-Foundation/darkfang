@@ -24,7 +24,7 @@ We will soon have some downloads ready for different operating systems here, beg
 
 ## Installing
 
-You can find prebuilt binaries for darkfang [here](https://github.com/Nightshade-Foundation/darkfang/releases). Alternatively, skip to the section below for instructions on how to build Min directly from source.
+You can find prebuilt binaries for darkfang [here](https://github.com/Nightshade-Foundation/darkfang/releases). Alternatively, skip to the section below for instructions on how to build Darkfang directly from source.
 
 ### Installation on Linux
 
@@ -76,7 +76,8 @@ If you're experiencing a bug or have a suggestion for how to improve darkfang, p
 - Open your new file, and copy the contents of the <a href="https://github.com/minbrowser/min/blob/master/localization/languages/en-US.json">localization/languages/en-US.json</a> file into your new file.
 - Change the "identifier" field in the new file to the language code from step 1.
 - Inside the file, replace each English string in the right-hand column with the equivalent translation.
-- (Optional) See your translations live by following the [development instructions](#installing) above. Min will display in the same language as your operating system, so make sure your computer is set to the same language that you're translating.
+- (Optional) See your translations live by following the [development instructions](#installing) above. 
+will display in the same language as your operating system, so make sure your computer is set to the same language that you're translating.
 - That's it! Make a pull request with your changes.
 
 #### Updating an existing language
