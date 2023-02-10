@@ -1,5 +1,5 @@
 const path = require('path')
-const statistics = require('js/statistics.js')
+//const statistics = require('js/statistics.js')
 
 const newTabPage = {
   background: document.getElementById('ntp-background'),
