@@ -42,7 +42,7 @@ If you want to buid on top of Darkfang:
 
 ### Building binaries
 
-In order to build Min from source, follow the installation instructions above, then use one of the following commands to create binaries:
+In order to build darkfang from source, follow the installation instructions above, then use one of the following commands to create binaries:
 
 - `npm run buildWindows`
 - `npm run buildMacIntel`
@@ -65,7 +65,7 @@ Thanks for taking the time to contribute to Darkfang!
 
 ### Getting Help
 
-If you're experiencing a bug or have a suggestion for how to improve Min, please open a [new issue](https://github.com/Nightshade-Foundation/darkfang/issues/new/choose).
+If you're experiencing a bug or have a suggestion for how to improve darkfang, please open a [new issue](https://github.com/Nightshade-Foundation/darkfang/issues/new/choose).
 
 ### Contributing Translations
 
@@ -94,7 +94,7 @@ If you're experiencing a bug or have a suggestion for how to improve Min, please
 
 ### Credits
 
-We are building on top of the excellent [Min](https://github.com/minbrowser] project. 
+We are building on top of the excellent [Min](https://github.com/minbrowser) project. 
 
 This project also could not exist without **Electron** and **Chromium**. 
 
