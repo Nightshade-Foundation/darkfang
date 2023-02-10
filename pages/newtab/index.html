@@ -1,5 +1,59 @@
 <!DOCTYPE html>
+<!--    --DarkTab-- 
+This custom New Tab page is also freely available for any browser:
+(https://github.com/rav3ndust/DarkTab)-->
 <html>
-  <head> </head>
-  <body></body>
+  <style>
+head {
+	background-color: black;
+	color: red;
+}
+
+body {
+	background-color: black; 
+	color: red; 
+} 
+
+footer { 
+	background-color: black; 
+	color: red; 
+	text-align: center;
+}
+
+.dateAndTime {              /* style the Date and Time module */
+    background-color: black;
+    color: red;
+}
+</style>
+<head>
+<title>New Tab</title>
+<!--create a "New Tab" heading to greet the user-->
+<h1 align="center">~ DarkTab ~</h1>
+</head>
+<body>
+<!--append the Date and Time module-->
+<p style="text-align:center"><i>Your current date and time is</i>:</p>
+<div id="dateAndTime" align="center"></div>
+    <script>
+    //build out the JavaScript for the Date and Time module
+    var currentDay = new Date(); 
+    document.getElementById("dateAndTime").innerHTML = currentDay;
+    </script>
+    <!--end scripting-->
+</br></br></br></br></br>    
+<p><i>Quote of the day:</i></p>
+<p>______________________________________________________________________________________________________________________________________________________________________________</p>
+<marquee behavior="scroll" direction="left"><b>"If you want to accomplish something in the world, idealism is not enough - you need to choose a method that works to achieve the goal."</b> - <i>Richard Stallman</i></marquee>
+<p>______________________________________________________________________________________________________________________________________________________________________________</p>
+</body>
+</br></br></br></br></br>
+<!--add freedom-respecting sites to the page-->
+<footer>
+<p><b><u>Sites that respect your freedom:</u></b></p>
+<!--add links to freedom-respecting and open-source platforms here. this can be updated as needed-->
+<p><a href="https://neighborli.xyz">neighborli</a> | <a href="https://diasp.org">Diaspora*</a> | <a href="https://pixelfed.social">Pixelfed</a> | <a href="https://odysee.com">Odysee</a> | <a href="https://www.gnu.org">The GNU Project</a> | <a href="https://www.fsf.org">The Free Software Foundation</a></p>
+<!--make a fun animation at the bottom of the footer. we can experiment with it to make it more interesting, or scrap it if we don't like it.-->
+<marquee behavior="scroll" direction="up"><b>~ ~ ~ ~ / ~~ ~ * ~ / * ~~ ~~ / ~~ ~~ * ~~ ** /// ~ ~ ~~ * ~~ -- ~~ ~ * ~~ /// ~~ ~~ ~ ~ | | ~ ~ ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ~~  ~ ~ ~ ~ / ~~ ~ * ~ / * ~~ ~~ / ~~ ~~ * ~~ ** /// ~ ~ ~~ * ~~ -- ~~ ~ * ~~ /// ~~ ~~ ~ ~ | | ~ ~ ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ~~ ~ ~ ~ ~ / ~~ ~ * ~ / * ~~ ~~ / ~~ ~~ * ~~ ** /// ~ ~ ~~ * ~~ -- ~~ ~ * ~~ /// ~~ ~~ ~ ~ | | ~ ~ ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ~~ ~ ~ ~ ~ / ~~ ~ * ~ / * ~~ ~~ / ~~ ~~ * ~~ ** /// ~ ~ ~~ * ~~ -- ~~ ~ * ~~ /// ~~ ~~ ~ ~ | | ~ ~ ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ~~ ~ ~ ~ ~ / ~~ ~ * ~ / * ~~ ~~ / ~~ ~~ * ~~ ** /// ~ ~ ~~ * ~~ -- ~~ ~ * ~~ /// ~~ ~~ ~ ~ | | ~ ~ ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ~~ ~ ~ ~ ~ / ~~ ~ * ~ / * ~~ ~~ / ~~ ~~ * ~~ ** /// ~ ~ ~~ * ~~ -- ~~ ~ * ~~ /// ~~ ~~ ~ ~ | | ~ ~ ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ~~ ~ ~ ~ ~ / ~~ ~ * ~ / * ~~ ~~ / ~~ ~~ * ~~ ** /// ~ ~ ~~ * ~~ -- ~~ ~ * ~~ /// ~~ ~~ ~ ~ | | ~ ~ ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ~~ ~ ~ ~ ~ / ~~ ~ * ~ / * ~~ ~~ / ~~ ~~ * ~~ ** /// ~ ~ ~~ * ~~ -- ~~ ~ * ~~ /// ~~ ~~ ~ ~ | | ~ ~ ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ~~~ ~ ~ ||| ||| --- ~ /// ~ ~ ~ *** ~ ~ ~ ~ ~~~ ~~ ~~ ~ /// ~ ~ ~~ ~ ~~ /// ~ ~ ~ // ~~~~ /// - ||| ~ ~ ~ ~ ~ ~~ ~ ~ ~ ~ ~~ ~ ~ ~ ~ ~ |||  ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~  ~ ** ~~ ~~ ~~ ~~ ~ ~~| /// ~~ ~ * ~~ ||| ~~ ~~</marquee> 
+</footer>
+
 </html>
